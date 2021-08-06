@@ -4,7 +4,7 @@
  * ---------------------------------------------------------------
  *
  * Automatically inject <script> tags and <link> tags into the specified
- * specified HTML and/or EJS files.  The specified delimiters (`startTag`
+ * specified HTML and/or ejs files.  The specified delimiters (`startTag`
  * and `endTag`) determine the insertion points.
  *
  * For more information, see:
