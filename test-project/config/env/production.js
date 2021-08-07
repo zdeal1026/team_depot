@@ -149,7 +149,7 @@ module.exports = {
     ***************************************************************************/
     cors: {
       allowOrigins: [
-        'https://teamdepot.herokuapp.com/',
+        'https://teamdepot.herokuapp.com',
       ]
     },
 
@@ -251,7 +251,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'https://teamdepot.herokuapp.com/',
+      'https://teamdepot.herokuapp.com',
     
     ],
 
