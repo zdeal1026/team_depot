@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd test-project && npm run start",
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/zdeal1026/team_depot/issues"
   },
-  "homepage": "https://github.com/zdeal1026/team_depot#readme"
+  "homepage": "https://github.com/zdeal1026/team_depot#readme",
+  "dependencies": {
+    "sails-mysql": "^1.0.2"
+  }
 }
