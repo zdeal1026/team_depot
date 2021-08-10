@@ -10,11 +10,13 @@
     "@sailshq/socket.io-redis": "^5.2.0",
     "consolidate": "^0.16.0",
     "handlebars": "^4.7.7",
+    "requirer": "0.0.4",
     "sails": "^1.4.4",
     "sails-hook-apianalytics": "^2.0.3",
     "sails-hook-organics": "^2.0.0",
     "sails-hook-orm": "^3.0.2",
-    "sails-hook-sockets": "^2.0.0"
+    "sails-hook-sockets": "^2.0.0",
+    "sails-mysql": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "5.16.0",
