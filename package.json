@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd test-project && npm run start",
+    "start": "cd test-project && sails lift",
     "postinstall": "cd test-project && npm install"
   },
   "repository": {
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/zdeal1026/team_depot#readme",
   "dependencies": {
-    "sails-mysql": "^1.0.2"
+
   }
 }
