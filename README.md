@@ -27,10 +27,9 @@
     - If user already has a profile then can just log in and it will launch their music
 - My Music
 - Homepage
-- Settings
 - Future Features
 
-## Demo Video
+## Vibez
 ![Vibez]()
 ## Technology Used
 - [Sails Js](https://sailsjs.com/)
@@ -38,6 +37,7 @@
 - MYSQL
     - For the database API
 - Node Modules
+- [Canva](https://www.canva.com/)
 
 ## User Story
 ```
