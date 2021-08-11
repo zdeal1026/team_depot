@@ -1,74 +1,182 @@
 <div id="homepage" v-cloak>
-  <div style="padding-top: 100px; padding-bottom: 25px; color:red;" class="d-flex flex-column justify-content-center position-relative" purpose="full-page-hero">
+  <div
+    style="padding-top: 100px; padding-bottom: 25px; color: red"
+    class="d-flex flex-column justify-content-center position-relative"
+    purpose="full-page-hero"
+  >
     <div class="container text-center">
-      <div style="width: 220px; height: 170px;" class="mx-auto position-relative">
-        <img style="width: 160px; bottom: 50px; left: 18px;" class="position-absolute" purpose="ship" alt="vibez logo" src="/images/vibez logo.png"/>
-        
+      <div
+        style="width: 220px; height: 170px"
+        class="mx-auto position-relative"
+      >
+        <img
+          style="width: 300px; bottom: 50px; left: 18px"
+          class="position-absolute"
+          purpose="ship"
+          alt="vibez logo"
+          src="/images/vibez logo.png"
+        />
       </div>
-      <h1 class="display-4 pb-5"><strong>VIBE</strong>check</h1>
       <div>
-        <div style="cursor: pointer; bottom: 25px; left: 0;" class="position-absolute w-100 mt-5" purpose="more-info-text" @click="clickHeroButton()">
-          <div style="letter-spacing: 2px;" class="text-uppercase font-weight-bold">CATCH A VIBE</div>
-          <div style="font-size: 20px;">&darr;</div>
+        <div
+          style="cursor: pointer; bottom: 25px; left: 0"
+          class="position-absolute w-100 mt-5"
+          purpose="more-info-text"
+          @click="clickHeroButton()"
+        >
+          <div
+            style="letter-spacing: 2px"
+            class="text-uppercase font-weight-bold"
+          >
+            CATCH A VIBE
+          </div>
+          <div style="font-size: 20px">&darr;</div>
         </div>
       </div>
     </div>
   </div>
-  <div style="background-color: rgba(238, 245, 249, 0.72);" class="text-center py-5" purpose="scroll-destination">
+
+  <div class="container pt-5">
+    <div class="pt-5" purpose="setup-section">
+      <h3 class="text-center">Make your playlist:</h3>
+      <div class="position-relative my-5" purpose="setup-step">
+        <div
+          style="left: 0; top: 0; width: 140px"
+          class="position-absolute d-none d-lg-block">
+        </div>
+        <h5>Set up your branding and content</h5>
+        <p>
+          This starter app includes several different page templates (including
+          the one you're reading right now) that you can change as much or as
+          little as you like. If there are any pages you won't need, just remove
+          them.
+        </p>
+      
+        <blockquote>
+          <small
+            >This app also includes a default
+            <a href="/legal/terms">Terms of Use</a> and
+            <a href="/legal/privacy">Privacy Policy</a>. We want to make it
+            easier for apps to be transparent about their users' rights and
+            privacy. But we are developers, not lawyers; and this is
+            <em>definitely not legal advice</em>. Before going live, be sure to
+            replace these example documents with your own company's policies,
+            and
+            <a href="https://en.wikipedia.org/wiki/Counsel" target="_blank"
+              >seek counsel</a
+            >
+            for assistance if you need to design new terms from scratch.</small
+          >
+        </blockquote>
+      </div>
+      <div class="position-relative my-5" purpose="setup-step"></div>
+    </div>
+    <hr />
+    <div class="text-center py-5" purpose="pep-talk">
+      <h3>How can we do better?!</h3>
+      <p style="max-width: 800px" class="mx-auto">
+        We think this project is a pretty convenient starting point, but of
+        course there's always room to grow!
+      </p>
+      <p><strong>Help us make something people want to use!</strong></p>
+      <p class="mb-5">
+        <span class="text-muted">&hearts;</span>
+        <a href="http://localhost:1337/contact" class="border-0"
+          >The Vibez Team</a
+        >
+      </p>
+    </div>
+  </div>
+
+  <div
+    style="background-color: rgba(238, 245, 249, 0.72)"
+    class="text-center py-5"
+    purpose="scroll-destination"
+  >
     <div class="container pt-3 pb-5" purpose="about-section">
       <h3>Good <strong>VIBEZ</strong> for good <strong>TIMEZ</strong>!</h3>
-      <p style="max-width: 800px;" class="mx-auto">Introducing <a target="_blank" href="https://sailsjs.com/about">VIBEZ</a>! As music enthusiasts, we wanted to create an app for all those curious music listeners. With this application, you can listen to a song and enjoy a brief description of the history of that song!! We look forward to helping you with your music trivia needs!!</p>
+      <p style="max-width: 800px" class="mx-auto">
+        Introducing
+        <a target="_blank" href="https://sailsjs.com/about">VIBEZ</a>! No wifi
+        got you down? No signal killing the vibe? Introducing
+      </p>
       <div class="row pt-5">
         <div class="mb-4 mb-sm-0 col-sm">
-          <div style="color: #fff; background-color:red; font-size: 35px; line-height: 75px; height: 75px; width: 75px;" class="rounded-circle mx-auto text-center mb-3">
+          <div
+            style="
+              color: #fff;
+              background-color: red;
+              font-size: 35px;
+              line-height: 75px;
+              height: 75px;
+              width: 75px;
+            "
+            class="rounded-circle mx-auto text-center mb-3"
+          >
             <i class="fa fa-envelope"></i>
           </div>
           <h4>Emails</h4>
-          <p class="text-muted">Built-in support for internal emails from the <a href="/contact">contact form</a>, as well as transactional emails for users.</p>
+          <p class="text-muted">
+            Built-in support for internal emails from the
+            <a href="/contact">contact form</a>, as well as transactional emails
+            for users.
+          </p>
         </div>
         <div class="pt-4 pt-sm-0 mb-4 mb-sm-0 col-sm">
-          <div style="color: #fff; background-color:red; font-size: 35px; line-height: 75px; height: 75px; width: 75px;" class="rounded-circle mx-auto text-center mb-3">
+          <div
+            style="
+              color: #fff;
+              background-color: red;
+              font-size: 35px;
+              line-height: 75px;
+              height: 75px;
+              width: 75px;
+            "
+            class="rounded-circle mx-auto text-center mb-3"
+          >
             <i class="fa fa-lock"></i>
           </div>
           <h4>Authentication</h4>
-          <p class="text-muted">Ready-to-go, customizable <a href="/signup">sign up</a>, <a href="/login">login</a>, and <a href="/password/forgot">password recovery</a> flows for your users.</p>
+          <p class="text-muted">
+            Ready-to-go, customizable <a href="/signup">sign up</a>,
+            <a href="/login">login</a>, and
+            <a href="/password/forgot">password recovery</a> flows for your
+            users.
+          </p>
         </div>
         <div class="pt-4 pt-sm-0 col-sm">
-          <div style="color: #fff; background-color:red; font-size: 35px; line-height: 75px; height: 75px; width: 75px;" class="rounded-circle mx-auto text-center mb-3">
+          <div
+            style="
+              color: #fff;
+              background-color: red;
+              font-size: 35px;
+              line-height: 75px;
+              height: 75px;
+              width: 75px;
+            "
+            class="rounded-circle mx-auto text-center mb-3"
+          >
             <i class="fa fa-credit-card"></i>
           </div>
           <h4>Billing</h4>
-          <p class="text-muted">Hook up to your Stripe account for managing customers and payment sources.</p>
+          <p class="text-muted">
+            Hook up to your Stripe account for managing customers and payment
+            sources.
+          </p>
         </div>
       </div>
       <a class="btn btn-outline-info mt-3" href="/faq">Learn more</a>
     </div>
   </div>
   <div class="container pt-5">
-    <div class="pt-5" purpose="setup-section">
-      <h3 class="text-center">Make your playlist:</h3>
-      <div class="position-relative my-5" purpose="setup-step">
-        <div style="left: 0; top: 0; width: 140px;" class="position-absolute d-none d-lg-block">
-          <img alt="computer with email symbol on screen" src="/images/setup-email.png" class="w-100"/>
-        </div>
-        <h5>Set up your branding and content</h5>
-        <p>This starter app includes several different page templates (including the one you're reading right now) that you can change as much or as little as you like.  If there are any pages you won't need, just remove them.</p>
-        <p>To get started, do a global find/replace in this project for occurrences of <code>VIBEZ</code> and replace them all with the actual name of your app or platform (e.g. "Facebag").  Then do the same thing again to replace <code>VIBEZ</code> with the actual name of your organization (e.g. "Facebag Corporation").</p>
-        <blockquote><small>This app also includes a default <a href="/legal/terms">Terms of Use</a> and <a href="/legal/privacy">Privacy Policy</a>.  We want to make it easier for apps to be transparent about their users' rights and privacy.  But we are developers, not lawyers; and this is <em>definitely not legal advice</em>.  Before going live, be sure to replace these example documents with your own company's policies, and <a href="https://en.wikipedia.org/wiki/Counsel" target="_blank">seek counsel</a> for assistance if you need to design new terms from scratch.</small></blockquote>
-      </div>
-      <div class="position-relative my-5" purpose="setup-step">
-        <div style="left: 0; top: 0; width: 140px;" class="position-absolute d-none d-lg-block">
-          <img alt="computer with credit card icon on screen" src="/images/setup-payment.png" class="w-100"/>
-        </div>
-     
-      </div>
-     
-    </div>
-    <hr/>
+    <hr />
     <div class="text-center py-5" purpose="pep-talk">
       <h3>How can we do better?!</h3>
-      <p style="max-width: 800px;" class="mx-auto">We think this project is a pretty convenient starting point, but of course there's always room to grow! Help us <strong>make something people want to use</strong>!</p>
-      <p class="mb-5"><span class="text-muted">&hearts;</span> <a href="http://localhost:1337/contact" class="border-0">The Vibez Team</a></p>
+      <p style="max-width: 800px" class="mx-auto">
+        We think this project is a pretty convenient starting point, but of
+        course there's always room to grow!
+      </p>
+      <a href="/contact"><strong>Help us make something people want to use!</strong></a>
     </div>
   </div>
 </div>
