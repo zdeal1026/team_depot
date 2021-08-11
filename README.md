@@ -1,7 +1,5 @@
 # ![Vibez](./test-project/assets/images/2.png)
 
-a [Sails v1](https://sailsjs.com) application
-
 
 ## Table of Contents
 
@@ -67,6 +65,8 @@ So that I can listen to music when my phone is on airplane mode!!!!
 ## Helpful Links
 
 [Sails Js](https://sailsjs.com/)
+
+[Sails v1](https://sailsjs.com) application
 
 [MYSQL](https://www.mysql.com/)
 
