@@ -148,9 +148,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+      allowOrigins: [
+        'https://teamdepot.herokuapp.com',
+      ]
     },
 
   },
@@ -250,10 +250,10 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    //   'https://staging.example.com',
-    // ],
+    onlyAllowOrigins: [
+      'https://teamdepot.herokuapp.com',
+    
+    ],
 
 
     /***************************************************************************
@@ -374,7 +374,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://example.com',
+    baseUrl: 'https://teamdepot.herokuapp.com',
     internalEmailAddress: 'support@example.com',
 
     // sendgridSecret: 'SG.fake.3e0Bn0qSQVnwb1E4qNPz9JZP5vLZYqjh7sn8S93oSHU',
