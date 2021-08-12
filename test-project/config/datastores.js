@@ -50,9 +50,7 @@ module.exports.datastores = {
     ***************************************************************************/
     adapter: 'sails-mysql',
 
-    url: 'mysql://root:Mysequel1212@localhost:3306/vibez_db',
-=======
-    url: 'https://teamdepot.herokuapp.com/addons/JAWS_DB',
+    url: 'mysql://root:Adonis_1996@localhost:3306/vibez_db',
 
 
   },
