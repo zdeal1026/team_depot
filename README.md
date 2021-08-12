@@ -14,11 +14,11 @@
 
 ## Vibe With Music
 
-* Deployed Link:
+* Deployed Link: https://teamdepot.herokuapp.com/
 
 * Github Repo Link: https://github.com/zdeal1026/team_depot
 
-* Presentations Link:
+* Presentations Link: https://docs.google.com/presentation/d/1JK45wQt1O5vMpM_Aa8caKpJehDuCK9wUIOOfjmzukLo/edit?usp=sharing
 
 ## Application Details
 

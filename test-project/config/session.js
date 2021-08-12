@@ -8,14 +8,15 @@
  * For all available options, see:
  * https://sailsjs.com/config/session
  */
- var MySQLSessionStore = require('express-mysql-session');
+ const MySQLSessionStore = require('express-mysql-session');
+ require('dotenv').config();
 
- var store_options = {
+ const store_options = {
  host: 'localhost',
  port: 3306,
- user: 'root',
- password: 'Adonis_1996',
- database: 'Vibez_db'
+ user: process.env.DB_USER,
+ password: process.env.DB_PASSWORD,
+ database: process.env.DB_NAME
  }
 
 module.exports.session = {
@@ -27,7 +28,7 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: 'b74d9c3bba6ecb3e028e2c1b67b01f5e',
+  secret: process.env.secret,
   store: new MySQLSessionStore(store_options)
 
 
