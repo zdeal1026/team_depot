@@ -5,7 +5,7 @@
 
 1. [Vibe With Music](##Vibe-With-Music)
 2. [Applications Details](##Application-Details)
-3. [Demo Video](##Demo-Video)
+3. [Vibez](##Vibez)
 4. [Technology Used](##Technology-Used)
 5. [User Story](##User-Story)
 6. [Requirements](##Requirements)
@@ -26,8 +26,14 @@
     - User can create a profile
     - If user already has a profile then can just log in and it will launch their music
 - My Music
+    - Playlist
 - Homepage
+    - Login/Sign up put 
+    - Welcome 
 - Future Features
+    - More music
+    - Music videos
+    - Show more information about the music 
 
 ## Vibez
 ![Vibez]()
