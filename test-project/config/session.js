@@ -14,7 +14,7 @@
  host: 'localhost',
  port: 3306,
  user: 'root',
- password: 'Adonis_1996',
+ password: 'Mysequel1212',
  database: 'Vibez_db'
  }
 
