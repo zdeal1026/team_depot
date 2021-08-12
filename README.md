@@ -5,7 +5,7 @@
 
 1. [Vibe With Music](##Vibe-With-Music)
 2. [Applications Details](##Application-Details)
-3. [Demo Video](##Demo-Video)
+3. [Vibez](##Vibez)
 4. [Technology Used](##Technology-Used)
 5. [User Story](##User-Story)
 6. [Requirements](##Requirements)
@@ -14,7 +14,7 @@
 
 ## Vibe With Music
 
-* Deployed Link: https://teamdepot.herokuapp.com/
+* Deployed Link:
 
 * Github Repo Link: https://github.com/zdeal1026/team_depot
 
@@ -26,11 +26,17 @@
     - User can create a profile
     - If user already has a profile then can just log in and it will launch their music
 - My Music
+    - Playlist
 - Homepage
+    - Login/Sign up put 
+    - Welcome 
 - Future Features
+    - More music
+    - Music videos
+    - Show more information about the music 
 
 ## Vibez
-![Vibez]()
+[Vibez Heroku](https://teamdepot.herokuapp.com/)
 ## Technology Used
 - [Sails Js](https://sailsjs.com/)
     - MVC framework
@@ -42,7 +48,10 @@
 ## User Story
 ```
 As a user I want an application that can create a playlist without a wifi connection...
-So that I can listen to music when my phone is on airplane mode!!!!
+Everyone knows the worst part about flying is the dreaded AIRPLANE MODE!
+Here at VIBEZ, we wanted to make an application that took the boredom out of traveling. 
+With alot of music applications, songs are off-loaded to save storage space on your mobile device. With VIBEZ,
+you can create a playlist that can be used when your phone doesn’t have signal.
 ```
 
 ## Requirements
