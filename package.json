@@ -1,0 +1,24 @@
+{
+  "name": "team_depot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run --prefix test-project start",
+    "postinstall": "cd test-project && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdeal1026/team_depot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdeal1026/team_depot/issues"
+  },
+  "homepage": "https://github.com/zdeal1026/team_depot#readme",
+  "dependencies": {
+
+  }
+}

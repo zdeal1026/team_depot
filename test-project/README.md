@@ -6,15 +6,17 @@ a [Sails v1](https://sailsjs.com) application
 ### Links
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
++ https://sailsjs.com/documentation/concepts/models-and-orm 
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
 + [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
 + [Community support options](https://sailsjs.com/support)
 + [Professional / enterprise options](https://sailsjs.com/enterprise)
 
-
+https://teamdepot.herokuapp.com/
 ### Version info
 
 This app was originally generated on Sun Aug 01 2021 22:45:00 GMT-0400 (Eastern Daylight Time) using Sails v1.4.4.
+Take this out later...
 
 <!-- Internally, Sails used [`sails-generate@2.0.3`](https://github.com/balderdashy/sails-generate/tree/v2.0.3/lib/core-generators/new). -->
 

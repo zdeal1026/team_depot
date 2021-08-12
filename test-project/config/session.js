@@ -8,6 +8,15 @@
  * For all available options, see:
  * https://sailsjs.com/config/session
  */
+ var MySQLSessionStore = require('express-mysql-session');
+
+ var store_options = {
+ host: 'localhost',
+ port: 3306,
+ user: 'root',
+ password: 'Adonis_1996',
+ database: 'Vibez_db'
+ }
 
 module.exports.session = {
 
@@ -19,6 +28,7 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
   secret: 'b74d9c3bba6ecb3e028e2c1b67b01f5e',
+  store: new MySQLSessionStore(store_options)
 
 
   /***************************************************************************
